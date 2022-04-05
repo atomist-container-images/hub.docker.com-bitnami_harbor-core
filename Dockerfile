@@ -1,12 +1,24 @@
-# Tags: latest, 2.4.2-debian-10-r14, 2.4.2, 2-debian-10, 2
+# Tags: latest, 2.4.2-debian-10-r18, 2.4.2, 2-debian-10, 2
 FROM bitnami/harbor-core:latest
-FROM bitnami/harbor-core:2.4.2-debian-10-r14
+FROM bitnami/harbor-core:2.4.2-debian-10-r18
 FROM bitnami/harbor-core:2.4.2
 FROM bitnami/harbor-core:2-debian-10
 FROM bitnami/harbor-core:2
 
 # Tags: _
 FROM bitnami/harbor-core:_
+
+# Tags: 2.4.2-debian-10-r17
+FROM bitnami/harbor-core:2.4.2-debian-10-r17
+
+# Tags: 2.4.2-debian-10-r16
+FROM bitnami/harbor-core:2.4.2-debian-10-r16
+
+# Tags: 2.4.2-debian-10-r15
+FROM bitnami/harbor-core:2.4.2-debian-10-r15
+
+# Tags: 2.4.2-debian-10-r14
+FROM bitnami/harbor-core:2.4.2-debian-10-r14
 
 # Tags: 2.4.2-debian-10-r13
 FROM bitnami/harbor-core:2.4.2-debian-10-r13
@@ -86,15 +98,3 @@ FROM bitnami/harbor-core:2.4.1-debian-10-r73
 
 # Tags: 2.4.1-debian-10-r72
 FROM bitnami/harbor-core:2.4.1-debian-10-r72
-
-# Tags: 2.4.1-debian-10-r71
-FROM bitnami/harbor-core:2.4.1-debian-10-r71
-
-# Tags: 2.4.1-debian-10-r70
-FROM bitnami/harbor-core:2.4.1-debian-10-r70
-
-# Tags: 2.4.1-debian-10-r69
-FROM bitnami/harbor-core:2.4.1-debian-10-r69
-
-# Tags: 2.4.1-debian-10-r68
-FROM bitnami/harbor-core:2.4.1-debian-10-r68
